@@ -36,8 +36,6 @@ class RingBuffer:
         self.node_map[item] = [self.storage.head]
         self.size += 1
 
-
-
     def get(self, item):
         # list_buffer_contents = []
         if item in self.node_map:
